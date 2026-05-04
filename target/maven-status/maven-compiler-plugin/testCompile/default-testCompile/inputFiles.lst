@@ -1,0 +1,12 @@
+C:\Automation\seleniumWebDriver\Opencart\src\test\java\pageObjects\AccountRegistrationPage.java
+C:\Automation\seleniumWebDriver\Opencart\src\test\java\pageObjects\BasePageClass.java
+C:\Automation\seleniumWebDriver\Opencart\src\test\java\pageObjects\HomePage.java
+C:\Automation\seleniumWebDriver\Opencart\src\test\java\pageObjects\LoginPage.java
+C:\Automation\seleniumWebDriver\Opencart\src\test\java\pageObjects\MyAccountPage.java
+C:\Automation\seleniumWebDriver\Opencart\src\test\java\testBase\BaseClass.java
+C:\Automation\seleniumWebDriver\Opencart\src\test\java\testCases\TC001_AccountRegistrationTest.java
+C:\Automation\seleniumWebDriver\Opencart\src\test\java\testCases\TC002_LoginTest.java
+C:\Automation\seleniumWebDriver\Opencart\src\test\java\testCases\TC003_LoginDDT.java
+C:\Automation\seleniumWebDriver\Opencart\src\test\java\utilities\DataProviders.java
+C:\Automation\seleniumWebDriver\Opencart\src\test\java\utilities\ExcelUtility.java
+C:\Automation\seleniumWebDriver\Opencart\src\test\java\utilities\ExtentReportManager.java

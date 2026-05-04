@@ -1,0 +1,18 @@
+2026-05-04 09:14:51 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Automation\seleniumWebDriver\Opencart\master.xml] otherwise TestNG may fail or not work as expected.
+2026-05-04 09:15:03 INFO  TC001_AccountRegistrationTest:17 - *** Starting TC001_AccountRegistrationTest ***
+2026-05-04 09:15:03 INFO  TC001_AccountRegistrationTest:20 - Clicking My Account
+2026-05-04 09:15:03 INFO  TC001_AccountRegistrationTest:22 - Clicking Register
+2026-05-04 09:15:05 INFO  TC001_AccountRegistrationTest:27 - Providing Customer Details
+2026-05-04 09:15:06 INFO  TC001_AccountRegistrationTest:36 - Clicking CheckBox and Button
+2026-05-04 09:15:11 INFO  TC001_AccountRegistrationTest:57 - *** Finished TC001_AccountRegistrationTest ***
+2026-05-04 09:15:20 INFO  TC002_LoginTest:16 - ***Starting TC002_Verify_Login***
+2026-05-04 09:15:23 INFO  TC002_LoginTest:44 - ***Finished TC002_Verify_Login***
+2026-05-04 09:42:05 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Automation\seleniumWebDriver\Opencart\master.xml] otherwise TestNG may fail or not work as expected.
+2026-05-04 09:42:12 INFO  TC001_AccountRegistrationTest:17 - *** Starting TC001_AccountRegistrationTest ***
+2026-05-04 09:42:12 INFO  TC001_AccountRegistrationTest:20 - Clicking My Account
+2026-05-04 09:42:12 INFO  TC001_AccountRegistrationTest:22 - Clicking Register
+2026-05-04 09:42:13 INFO  TC001_AccountRegistrationTest:27 - Providing Customer Details
+2026-05-04 09:42:14 INFO  TC001_AccountRegistrationTest:36 - Clicking CheckBox and Button
+2026-05-04 09:42:16 INFO  TC001_AccountRegistrationTest:57 - *** Finished TC001_AccountRegistrationTest ***
+2026-05-04 09:42:24 INFO  TC002_LoginTest:16 - ***Starting TC002_Verify_Login***
+2026-05-04 09:42:28 INFO  TC002_LoginTest:44 - ***Finished TC002_Verify_Login***
