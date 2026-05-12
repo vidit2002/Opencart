@@ -82,11 +82,12 @@ public class BaseClass {
 			driver.quit();
 		}
 		
-		public String captureScreen(String tname) throws IOException {
+		public String captureScreenshot(String tname) throws IOException {
 			
 			String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 			
 			TakesScreenshot takesscreenshot = (TakesScreenshot)driver;
+			
 			File sourcefile = takesscreenshot.getScreenshotAs(OutputType.FILE);
 			
 			String targetfilepath = System.getProperty("user.dir")+"\\screenshots\\"+tname+"_"+timeStamp+".png";
@@ -96,6 +97,4 @@ public class BaseClass {
 			
 			return targetfilepath;
 		}
-		
-	
 }
