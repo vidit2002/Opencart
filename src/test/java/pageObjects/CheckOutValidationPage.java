@@ -18,15 +18,12 @@ public class CheckOutValidationPage extends BasePageClass{
 	}
 	
 	//Locators
-	@FindBy(xpath = "//button[@onclick = \"cart.add('43');\"]")
+	@FindBy(xpath = "//button[@type = 'button']//span[text() = 'Add to Cart']")
 	WebElement addToCartMacbook;
 	
-	@FindBy(xpath = "//button[@onclick = \"cart.add('40');\"]")
-	WebElement addToCartIphone;
+	@FindBy(xpath = "//div[@id = 'top-links']//li[5]")
+	WebElement clickProceedToCheckOut;
 	
-	@FindBy(xpath = "//a[@title = 'Checkout']")
-	WebElement clickCheckingOut;
-
 	//Actions
 	public void clickMacbook()
 	{
@@ -34,15 +31,9 @@ public class CheckOutValidationPage extends BasePageClass{
 		addToCartMacbook.click();
 	}
 	
-	public void clickIphonek()
+	public void clickProceedToCheckOut()
 	{
-		mywait.until(ExpectedConditions.visibilityOf(addToCartIphone));
-		addToCartIphone.click();
-	}
-	
-	public void clickCheckingOutBtn()
-	{
-		mywait.until(ExpectedConditions.visibilityOf(clickCheckingOut));
-		clickCheckingOut.click();
+		mywait.until(ExpectedConditions.visibilityOf(clickProceedToCheckOut));
+		clickProceedToCheckOut.click();
 	}
 }

@@ -66,6 +66,8 @@ public class BaseClass {
 			return generatedNumber;
 		}
 		
+		
+		
 		public String RandomAlphaNumeric()
 		{
 			@SuppressWarnings("deprecation")
